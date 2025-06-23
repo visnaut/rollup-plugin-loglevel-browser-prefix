@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2025-06-23
+
+### Changed
+- Updated repository, bugs, and homepage URLs in `package.json` to match the correct GitHub repository (visnaut/rollup-plugin-loglevel-browser-prefix).
+
 ## [1.0.0] - 2025-06-23
 
 ### Added
