@@ -1,0 +1,47 @@
+{
+  "name": "rollup-plugin-loglevel-browser-prefix",
+  "version": "1.0.0",
+  "description": "Rollup plugin that wraps loglevel function calls with prefix function",
+  "type": "module",
+  "main": "plugin.js",
+  "files": [
+    "plugin.js",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "rollup",
+    "plugin",
+    "loglevel",
+    "loglevel-plugin-browser-prefix",
+    "logging",
+    "format",
+    "ast",
+    "transform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/rollup-plugin-loglevel-browser-prefix"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/rollup-plugin-loglevel-browser-prefix/issues"
+  },
+  "homepage": "https://github.com/your-org/rollup-plugin-loglevel-browser-prefix#readme",
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.0",
+    "magic-string": "^0.30.0",
+    "acorn": "^8.0.0",
+    "estree-walker": "^3.0.0"
+  },
+  "peerDependencies": {
+    "rollup": "^3.0.0 || ^4.0.0"
+  },
+  "scripts": {
+    "test": "node test.js && node test-comprehensive.js"
+  }
+}
